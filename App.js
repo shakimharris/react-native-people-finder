@@ -5,6 +5,7 @@ export default class App extends Component {
 state = {
   placeName: ''
 }
+placeNameChangedHandler = () => {}; 
 
   render() {
     return (
