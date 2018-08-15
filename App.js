@@ -12,8 +12,10 @@ placeNameChangedHandler = (event) => {
   render() {
     return (
       <View style={styles.container}>
-      <TextInput value={this.state.placeName}
-       onChangeText ={this.placeNameChangedHandler} />
+      <TextInput
+      style={{width: 300, borderColor: black, borderWidth: 1}}
+      value={this.state.placeName}
+      onChangeText ={this.placeNameChangedHandler} />
 
       </View>
     );
