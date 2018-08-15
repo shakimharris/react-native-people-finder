@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default class App extends Component {
 state = {
@@ -18,8 +18,9 @@ placeNameChangedHandler = val => {
       style={{width: 300}}
       placeholder = "An awesome place"
       value={this.state.placeName}
-      onChangeText ={this.placeNameChangedHandler} />
-
+      onChangeText ={this.placeNameChangedHandler}
+      />
+      <Button />
       </View>
     );
   }
