@@ -1,7 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
-export default class App extends React.Component {
+export default class App extends Component {
+state = {
+  placeName: ''
+}
+
   render() {
     return (
       <View style={styles.container}>
