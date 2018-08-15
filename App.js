@@ -9,7 +9,7 @@ state = {
   render() {
     return (
       <View style={styles.container}>
-      <TextInput />
+      <TextInput value={this.state.placeName} />
 
       </View>
     );
