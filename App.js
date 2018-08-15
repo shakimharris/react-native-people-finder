@@ -20,7 +20,7 @@ placeNameChangedHandler = val => {
       value={this.state.placeName}
       onChangeText ={this.placeNameChangedHandler}
       />
-      <Button />
+      <Button title ="Add" />
       </View>
     );
   }
