@@ -21,6 +21,9 @@ placeSubmitHandler = () => {
 };
 
   render() {
+    const placesOutput = this.state.places.map(place => (
+
+    ));
     return (
       <View style={styles.container}>
         <View style={styles.inputContainer}>
