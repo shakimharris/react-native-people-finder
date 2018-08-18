@@ -11,7 +11,7 @@ placeNameChangedHandler = val => {
     placeName: val
   });
 placeSubmitHandler = () => {
-  if (this.state.placeName.trim() ===
+  if (this.state.placeName.trim() === "")
   return;
   this.SetState(prevState => {
     places: prevState.places.concat(prevState.placeName);
