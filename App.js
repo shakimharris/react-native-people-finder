@@ -14,15 +14,15 @@ placeNameChangedHandler = val => {
   render() {
     return (
       <View style={styles.container}>
-      <View>
-      <TextInput
-      style={{width: 300}}
-      placeholder = "An awesome place"
-      value={this.state.placeName}
-      onChangeText ={this.placeNameChangedHandler}
-      />
-      <Button title ="Add" />
-      </View>
+        <View>
+          <TextInput
+          style={{width: 300}}
+          placeholder = "An awesome place"
+          value={this.state.placeName}
+          onChangeText ={this.placeNameChangedHandler}
+          />
+          <Button title ="Add" />
+          </View>
 
       </View>
     );
