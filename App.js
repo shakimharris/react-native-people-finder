@@ -45,5 +45,7 @@ const styles = StyleSheet.create({
   placeInput: {
 
   }
-  
+  placeButton: {
+    
+  }
 });
