@@ -10,6 +10,7 @@ placeNameChangedHandler = val => {
   this.setState({
     placeName: val
   });
+  };
 placeSubmitHandler = () => {
   if (this.state.placeName.trim() === "")
   return;
