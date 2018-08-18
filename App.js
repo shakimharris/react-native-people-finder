@@ -13,6 +13,9 @@ placeNameChangedHandler = val => {
 placeSubmitHandler = () => {
   if (this.state.placeName.trim() ===
   return;
+  this.SetState(prevState => {
+    
+  })
 }
 };
 
