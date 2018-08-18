@@ -24,7 +24,8 @@ placeSubmitHandler = () => {
           value={this.state.placeName}
           onChangeText ={this.placeNameChangedHandler}
           />
-          <Button title ="Add" style={styles.placeButton} />
+          <Button title ="Add" style={styles.placeButton}
+          onPress={this.placeSubmitHandler} />
           </View>
 
       </View>
