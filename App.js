@@ -37,4 +37,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
+  inputContainer: {
+    flex: 1,
+  }
 });
