@@ -7,7 +7,10 @@ const listItem = (props) => (
 );
 
 const styles = StyleSheet.create({
-
+  listItem: {
+    width: "100%",
+    
+  }
 });
 
 export default listItem;
