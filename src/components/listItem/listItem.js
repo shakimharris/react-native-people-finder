@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-const listItem = () => (
+const listItem = (props) => (
  <View>
- <Text></Text>
+ <Text>{props.placeName}</Text>
  </View>
 );
 
