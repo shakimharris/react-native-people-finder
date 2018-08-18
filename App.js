@@ -22,7 +22,7 @@ placeSubmitHandler = () => {
 
   render() {
     const placesOutput = this.state.places.map(place, i) => (
-     <Text key={i}>{place}</Text>
+    
     ));
     return (
       <View style={styles.container}>
