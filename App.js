@@ -14,6 +14,8 @@ placeNameChangedHandler = val => {
   render() {
     return (
       <View style={styles.container}>
+      <View>
+      </View>
       <TextInput
       style={{width: 300}}
       placeholder = "An awesome place"
