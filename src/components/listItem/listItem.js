@@ -6,4 +6,8 @@ const listItem = (props) => (
  </View>
 );
 
+const styles = StyleSheet.create({
+
+});
+
 export default listItem;
