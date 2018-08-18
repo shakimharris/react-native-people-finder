@@ -14,7 +14,7 @@ placeSubmitHandler = () => {
   if (this.state.placeName.trim() ===
   return;
   this.SetState(prevState => {
-    places: prevState.places.concat();
+    places: prevState.places.concat(prevState.placeName);
   };
 });
 };
