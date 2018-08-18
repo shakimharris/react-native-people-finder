@@ -9,6 +9,9 @@ placeNameChangedHandler = val => {
   this.setState({
     placeName: val
   });
+placeSubmitHandler = () => {
+
+}
 };
 
   render() {
