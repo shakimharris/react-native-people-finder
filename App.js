@@ -3,7 +3,8 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default class App extends Component {
 state = {
-  placeName: ''
+  placeName: '',
+  places: []
 }
 placeNameChangedHandler = val => {
   this.setState({
