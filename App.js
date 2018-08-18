@@ -21,7 +21,7 @@ placeSubmitHandler = () => {
 };
 
   render() {
-    const placesOutput = this.state.places.map(place => (
+    const placesOutput = this.state.places.map(place, i) => (
      <Text>{place}</Text>
     ));
     return (
@@ -36,7 +36,9 @@ placeSubmitHandler = () => {
           <Button title ="Add" style={styles.placeButton}
           onPress={this.placeSubmitHandler} />
           </View>
-           <View>{placesOutput}</View>
+           <View>
+           {placesOutput}
+           </View>
       </View>
     );
   }
