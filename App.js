@@ -15,7 +15,6 @@ placeNameChangedHandler = val => {
     return (
       <View style={styles.container}>
       <View>
-      </View>
       <TextInput
       style={{width: 300}}
       placeholder = "An awesome place"
@@ -23,6 +22,8 @@ placeNameChangedHandler = val => {
       onChangeText ={this.placeNameChangedHandler}
       />
       <Button title ="Add" />
+      </View>
+
       </View>
     );
   }
